@@ -1,7 +1,4 @@
 # Projeto de Machine Learning: Previsão de Custos Médicos Individuais
----
-
-Este projeto é um desafio do módulo de Machine Learing com Python da Pós Graduação em Data Analytics da FIAP.
 
 ## Objetivo do Projeto
 
@@ -39,7 +36,6 @@ O dataset utilizado, `insurance.csv`, contém 1338 registros e 7 variáveis:
 
 
 ### 3. Modelagem e Avaliação
-
 Para encontrar o modelo mais eficiente, foram testados e comparados diversos algoritmos de Regressão:
 
 * Regressão Linear 
@@ -73,3 +69,6 @@ O projeto foi desenvolvido em Python e utiliza as seguintes bibliotecas:
 * `numpy`
 * `matplotlib` e `seaborn` (para EDA)
 * `scikit-learn` (para pré-processamento, pipeline, modelos e métricas)
+
+---
+Desafio do Módulo de Machine Learning com Python - Fase 2. Pós Tech em Data Analytics (FIAP)
