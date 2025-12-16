@@ -54,7 +54,7 @@ Para encontrar o modelo mais eficiente, foram testados e comparados os seguintes
 
 * O **Random Forest** demonstrou a melhor capacidade preditiva.
 * O MAE de **2075.47** significa que, em média, o nosso melhor modelo erra a previsão do custo médico por essa quantia em dólar.
-* O fator **smoker** foi consistentemente a variável mais importante para a determinação dos custos.
+* O fator **smoker** foi a variável mais importante para a determinação dos custos.
 
 ## Tecnologias Utilizadas
 
