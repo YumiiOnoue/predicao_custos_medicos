@@ -32,11 +32,11 @@ O dataset utilizado, `insurance.csv`, contém 1338 registros e 7 variáveis:
 
 1.  **Codificação de Variáveis Categóricas:** Utilizado **One-Hot Encoding** para transformar as colunas `sex`, `smoker` e `region` em variáveis binárias.
 2.  **Feature Scaling (Padronização):** Aplicado o **`StandardScaler`** (Padronização Z-score) nas variáveis numéricas (`age`, `bmi`, `children`) para garantir que nenhuma feature domine o treinamento devido à sua magnitude.
-3.  **Transformação da Variável Alvo:** Aplicada a **transformação logarítmica** ($\log(y)$) na variável `charges` do conjunto de Treinamento para normalizar sua distribuição e melhorar o desempenho do modelo linear.
+3.  **Transformação da Variável Alvo:** Aplicada a **transformação logarítmica** (log(y)) na variável `charges` do conjunto de Treinamento para normalizar sua distribuição e melhorar o desempenho do modelo linear.
 
 
-### 3. Modelagem e Avaliação
-Para encontrar o modelo mais eficiente, foram testados e comparados diversos algoritmos de Regressão:
+### 3. Modelagem
+Para encontrar o modelo mais eficiente, foram testados e comparados os seguintes algoritmos de Regressão:
 
 * Regressão Linear 
 * Decision Tree
@@ -53,7 +53,7 @@ Para encontrar o modelo mais eficiente, foram testados e comparados diversos alg
 ### Interpretação do Resultado
 
 * O **Random Forest** demonstrou a melhor capacidade preditiva.
-* O MAE de **2075.47** significa que, em média, o nosso modelo erra a previsão do custo médico por essa quantia em dólar.
+* O MAE de **2075.47** significa que, em média, o nosso melhor modelo erra a previsão do custo médico por essa quantia em dólar.
 * O fator **smoker** foi consistentemente a variável mais importante para a determinação dos custos.
 
 ## Tecnologias Utilizadas
