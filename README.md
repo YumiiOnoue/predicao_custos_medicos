@@ -1,4 +1,4 @@
-# Projeto de Machine Learning: Previsão de Custos Médicos Individuais
+# Previsão de Custos Médicos Individuais
 
 ## Objetivo do Projeto
 
