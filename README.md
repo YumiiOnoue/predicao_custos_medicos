@@ -1,4 +1,4 @@
-# Previsão de Custos Médicos Individuais
+# Previsão do Seguro de Saúde Individuais
 
 ## Objetivo do Projeto
 
